@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  /* background-color: #1e1d26; */
+  color: green;
+  height: 50px;
+}
+
+#Top-bar {
+  margin: 2px 60px;
+  color: gray;
+}
+.container {
+  width: 1200px;
+  height: auto;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+.col-md-3 {
+  width: 25%;
+}
+
+.main-column {
+  display: flex;
+  flex-direction: row;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.welcom {
+  height: 300px;
+  width: 100%;
+  /* background-color: greenyellow; */
+  background-image: url(https://themes.muffingroup.com/be/recipes2/wp-content/uploads/2018/07/home_recipes2_slider_bg.jpg);
+}
+.wlc {
+  color: #20c05c;
+}
+.welcom-p {
+  width: 500px;
+}
