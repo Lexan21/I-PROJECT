@@ -1,19 +1,31 @@
 * {
   box-sizing: border-box;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 header {
-  /* background-color: #1e1d26; */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #1e1d26;
   color: green;
   height: 50px;
 }
 
 #Top-bar {
-  margin: 2px 60px;
+  /* margin: 0 auto; */
   color: gray;
 }
 .container {
-  width: 1200px;
+  width: auto;
   height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* text-align: center; */
 }
 
 .col-md-6 {
@@ -26,10 +38,14 @@ header {
 .main-column {
   display: flex;
   flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: ;
 }
 .menu {
   display: flex;
   flex-direction: row;
+  vertical-align: baseline;
 }
 
 .welcom {
