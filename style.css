@@ -13,11 +13,29 @@ header {
   background-color: #1e1d26;
   color: green;
   height: 50px;
+  display: flex;
+  align-items: center;
+}
+.logo-r {
+  display: flex;
+  align-items: flex-end;
+}
+.logo {
+  width: 30%;
+  height: 30%;
+  /* display: flex; */
+  /* justify-content: end; */
+  margin-left: 150px;
 }
 
 #Top-bar {
   /* margin: 0 auto; */
-  color: gray;
+  color: #fff;
+  width: 1440px;
+  font-size: 18px;
+
+  height: 25px;
+  margin: 0 auto;
 }
 .container {
   width: auto;
@@ -39,13 +57,30 @@ header {
   display: flex;
   flex-direction: row;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
+  font-stretch: expanded;
+  /* font-size: medium; */
   color: ;
+}
+
+.menu-aling-end {
+  display: flex;
+  justify-content: flex-end;
 }
 .menu {
   display: flex;
   flex-direction: row;
-  vertical-align: baseline;
+  /* vertical-align: baseline; */
+  /* align-items: flex-end; */
+  /* justify-content: flex-end; */
+  /* margin-left: 200px; */
+  margin-right: 20px;
+}
+/* #m-menu-m {
+  font-style: bold;
+} */
+.m-menu {
+  margin: 5px 10px;
+  font-stretch: expanded;
 }
 
 .welcom {
