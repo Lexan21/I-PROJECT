@@ -85,7 +85,8 @@ header {
 } */
 .m-menu {
   margin: 5px 10px;
-  font-stretch: expanded;
+  /* font-stretch: expanded; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn-b-now {
