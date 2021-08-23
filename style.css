@@ -23,7 +23,7 @@ header {
 }
 .container {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   margin: 0;
   padding: 0;
   border: 0;
@@ -59,7 +59,7 @@ header {
   height: 100%;
 }
 .menu-aling-items {
-  height: 100%;
+  /* height: 100%; */
 }
 
 .menu {
@@ -69,18 +69,53 @@ header {
   justify-content: flex-end;
 }
 
-.m-menu {
-  margin: 0 7px;
+.m-menu span {
+  margin: 0 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
 }
-/* <a id="logo" href="https://themes.muffingroup.com/be/recipes2" title="BeRecipes 2 - BeTheme" data-height="60" data-padding="10" class="retina"><img class="logo-main scale-with-grid " src="https://themes.muffingroup.com/be/recipes2/wp-content/uploads/2018/07/retina-recipes.png" data-retina="https://themes.muffingroup.com/be/recipes2/wp-content/uploads/2018/07/retina-recipes.png" data-height="50" alt="recipes" data-no-retina="" style="max-height: 50px;"><img class="logo-sticky scale-with-grid " src="https://themes.muffingroup.com/be/recipes2/wp-content/uploads/2018/07/retina-recipes.png" data-retina="https://themes.muffingroup.com/be/recipes2/wp-content/uploads/2018/07/retina-recipes.png" data-height="50" alt="recipes" data-no-retina="" style="max-height: 34.9896px;"><img class="logo-mobile scale-with-grid " src="https://themes.muffingroup.com/be/recipes2/wp-content/uploads/2018/07/retina-recipes.png" data-retina="https://themes.muffingroup.com/be/recipes2/wp-content/uploads/2018/07/retina-recipes.png" data-height="50" alt="recipes" data-no-retina="" style="max-height: 50px;"><img class="logo-mobile-sticky scale-with-grid " src="https://themes.muffingroup.com/be/recipes2/wp-content/uploads/2018/07/retina-recipes.png" data-retina="https://themes.muffingroup.com/be/recipes2/wp-content/uploads/2018/07/retina-recipes.png" data-height="50" alt="recipes" data-no-retina="" style="max-height: 50px;"></a> */
+
+.m-home span {
+  color: white;
+}
+
+.btn-b-now {
+  height: 100%;
+}
+.b-now {
+  width: 90px;
+  height: 40px;
+  background-color: #20c05c;
+  border-color: #20c05c;
+  border-radius: 7px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
 .welcom {
+  /* color: #20c05c; */
+  background-image: url(images/b-g-welcom.jpg);
+  /* padding-top: 50px; */
+  width: 1440px;
   height: 300px;
-  width: 100%;
-  /* background-color: greenyellow; */
-  background-image: url(https://themes.muffingroup.com/be/recipes2/wp-content/uploads/2018/07/home_recipes2_slider_bg.jpg);
+  display: flex;
+  justify-content: center;
 }
-.wlc {
+
+.welcom-box {
+  width: 1102px;
+  padding-top: 50px;
+}
+
+.welcom-box h6 {
   color: #20c05c;
+  font-size: 13px;
+  line-height: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
 }
 .welcom-p {
   width: 500px;
