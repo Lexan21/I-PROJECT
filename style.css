@@ -111,10 +111,10 @@ header {
 
 .welcom-box h6 {
   color: #20c05c;
-  font-size: 13px;
+  font-size: 18px;
   line-height: 25px;
   font-weight: 600;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-family: "Poppins", Helvetica, Arial, sans-serif;
 }
 
@@ -136,9 +136,45 @@ header {
 
 .buttons-welcom {
   margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
 }
 .button-1 {
-  width: 80px;
-  height: 50px;
+  width: 120px;
+  height: 40px;
+  border-color: #20c05c;
+  border-radius: 8px;
   background-color: #20c05c;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: Arial;
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 10px;
 }
+
+.button-2 {
+  width: 130px;
+  height: 40px;
+  border-radius: 8px;
+  border-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #747474;
+}
+
+.ab-us {
+  font-family: Arial;
+  border: 1px;
+  border-color: #20c05c;
+  padding: 2px;
+}
+
+/* .icon-1 {
+  color: rgba(0, 0, 0, 0.5);
+  
+} */
