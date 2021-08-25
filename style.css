@@ -117,6 +117,7 @@ header {
   font-weight: 600;
   letter-spacing: 1px;
   font-family: "Poppins", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .welcom-box h2 {
@@ -129,7 +130,7 @@ header {
 .welcom-p {
   width: 500px;
   font-family: "Poppins", Helvetica, sans-serif;
-  color: black;
+  color: gray;
   font-weight: 100;
   letter-spacing: 2px;
   margin-top: 20px;
@@ -202,7 +203,7 @@ header {
 
 .table-two {
   width: 1102px;
-  height: 600px;
+  height: 400px;
   display: flex;
   justify-content: center;
 }
@@ -257,16 +258,129 @@ header {
   height: 30px;
   border: 2px;
   border-color: teal;
+  display: flex;
+  justify-content: space-around;
+  background-color: ghostwhite;
 }
 
 .like {
-  width: 50%;
-  height: 100%;
+  width: 29px;
+  height: 29px;
 }
 
 .read-more img {
-  /* width: 10%; */
+  /* width: 20px;
+  height: 29px; */
   /* color: #20c05c; */
   border: 2px;
   border-color: #20c05c;
+  display: flex;
+  justify-content: center;
+}
+
+.r-more {
+  width: 170px;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+}
+
+.r-more img {
+  width: 20px;
+  height: 29px;
+}
+
+.r-more a {
+  height: 20px;
+  color: #20c05c;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* container-3 */
+.other-recipes {
+  width: 1440px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-image: url(images/home_recipes2_sectionbg1.jpg);
+}
+.other-recipes-box {
+  width: 1102px;
+  height: 400px;
+  background-image: url(images/back-g-home_recipes2.jpg);
+  border-radius: 10px;
+}
+.other-recipes-box-content {
+  width: 900px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  margin: 70px 70px;
+}
+
+.other-recipes-box-content h6 {
+  color: #20c05c;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.other-recipes-box-content h2 {
+  color: white;
+  font-size: 37px;
+  line-height: 46px;
+  letter-spacing: 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.natural-products {
+  background-image: url(images/home_recipes2_sectionbg2.jpg);
+  width: 1440px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.natural-products-box {
+  margin: 80px 120px;
+  text-transform: uppercase;
+}
+.natural-products h6 {
+  color: #20c05c;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+
+.natural-products h2 {
+  color: white;
+  font-size: 37px;
+  line-height: 46px;
+  letter-spacing: 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.natural-products-box p {
+  width: 500px;
+  font-family: "Poppins", Helvetica, sans-serif;
+  color: gray;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  font-weight: lighter;
+}
+.zero hr {
+  border: none;
+  border-top: 3px solid white;
+  color: gray;
+  /* overflow: visible; */
+  text-align: center;
+  height: 5px;
 }
