@@ -348,8 +348,8 @@ header {
 
 .natural-products-box {
   margin: 80px 120px;
-  text-transform: uppercase;
 }
+
 .natural-products h6 {
   color: #20c05c;
   font-size: 18px;
@@ -357,6 +357,7 @@ header {
   font-weight: 600;
   letter-spacing: 1px;
   font-family: "Poppins", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .natural-products h2 {
