@@ -316,7 +316,7 @@ main {
 
 /* container-3 */
 .other-recipes {
-  width: 1440px;
+  width: 100%;
   height: 500px;
   display: flex;
   justify-content: center;
@@ -450,7 +450,7 @@ main {
 }
 
 .slider {
-  width: auto;
+  width: 100%;
   height: 600px;
   display: flex;
 
@@ -459,9 +459,10 @@ main {
 }
 
 .testimonials {
-  width: 1440px;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
 }
 .testimonials-h2 {
   color: black;
@@ -470,9 +471,45 @@ main {
   letter-spacing: 0px;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
-  margin: 40px 0;
+  margin: 80px 0 40px 0;
+}
+.foto {
+  display: flex;
+  justify-content: center;
 }
 
 .foto img {
   border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonials-quotes {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.02);
+  width: 80%;
+  padding: 8px 0;
+  margin: 10px auto;
+}
+
+.testimonials-quotes img {
+  width: 46px;
+  height: auto;
+}
+.testimonials-quotes p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444444;
+  letter-spacing: 1px;
+  padding: 4px 2px;
+  text-align: center;
+}
+
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #2e2d2d;
+  text-align: center;
+  margin: 2px;
 }
