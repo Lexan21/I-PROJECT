@@ -521,9 +521,19 @@ main {
 
 .footer {
   width: 100%;
+  display: flex;
+
+  justify-content: space-between;
 }
 .footer-text {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
+.footer-icons img {
+  width: 16px;
+  height: auto;
+}
+/* .f-icon {
+  margin: 4px;
+} */
